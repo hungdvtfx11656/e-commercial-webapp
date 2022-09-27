@@ -1,0 +1,52 @@
+/* Global setting */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: none;
+}
+dl, ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+p {
+    margin-bottom: 0;
+}
+
+
+/* Header search */
+.header_search {
+    background-color: #222F3C;
+    color: #D6D6D6;
+}
+
+/* Header menu */
+.header_menu {
+    background-color: #293948;
+}
+.header_menu ul li {
+    padding: 0.75rem 0.5rem;
+    transition: 0.3s;
+}
+.header_menu ul li:hover {
+    background-color: #005493;
+}
+.header_menu ul li:hover a {
+    color: #EE8826;
+}
+.header_menu ul li a {
+    color: #FFF;
+}
+
+/* Footer */
+.footer {
+    background-color: #222F3C;
+    color: #D6D6D6;
+}
